@@ -29,6 +29,9 @@
     <None Include="介绍.md">
       <Filter>资源</Filter>
     </None>
+    <None Include="..\README.md">
+      <Filter>资源</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="001.txt">
