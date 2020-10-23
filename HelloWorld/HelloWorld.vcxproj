@@ -140,50 +140,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedList.c" />
     <ClCompile Include="Main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\001.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\006-009, 011.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\014-015.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\019.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\020.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\027.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\028.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\C语言大纲.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\修饰符一览.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\四种代码结构.txt">
-      <DeploymentContent>true</DeploymentContent>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\059.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
-    <Image Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\069.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
+    <ClCompile Include="泛型.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="介绍.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="001.txt" />
+    <Text Include="006-009, 011.txt" />
+    <Text Include="014-015.txt" />
+    <Text Include="019.txt" />
+    <Text Include="020.txt" />
+    <Text Include="027.txt" />
+    <Text Include="028.txt" />
+    <Text Include="C语言大纲.txt" />
+    <Text Include="修饰符一览.txt" />
+    <Text Include="四种代码结构.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="059.png" />
+    <Image Include="069.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

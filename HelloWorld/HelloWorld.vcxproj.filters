@@ -18,50 +18,56 @@
     <ClCompile Include="Main.c">
       <Filter>源文件（代码）</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\027.txt">
+    <ClCompile Include="LinkedList.c">
       <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\028.txt">
+    </ClCompile>
+    <ClCompile Include="泛型.c">
       <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\C语言大纲.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\四种代码结构.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\修饰符一览.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\001.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\006-009, 011.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\014-015.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\019.txt">
-      <Filter>资源</Filter>
-    </Text>
-    <Text Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\020.txt">
-      <Filter>资源</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\059.png">
-      <Filter>资源</Filter>
-    </Image>
-    <Image Include="D:\UserData\Qitian Zhang\Documents\Bandicam\Hello C系列\材料\069.png">
-      <Filter>资源</Filter>
-    </Image>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="介绍.md">
       <Filter>资源</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="001.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="006-009, 011.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="014-015.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="019.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="020.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="027.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="028.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="C语言大纲.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="四种代码结构.txt">
+      <Filter>资源</Filter>
+    </Text>
+    <Text Include="修饰符一览.txt">
+      <Filter>资源</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="059.png">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="069.png">
+      <Filter>资源</Filter>
+    </Image>
   </ItemGroup>
 </Project>

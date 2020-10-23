@@ -1,0 +1,6 @@
+IDE：集成开发环境
+Visual Studio 2019
+Code::Blocks
+DevCpp
+
+控制台、终端（Console、Terminal）
