@@ -212,8 +212,8 @@ int count = 1;
 struct node *p = head.next;
 while(p->next != NULL)
 {
-	count++;
-	p = p->next;
+    count++;
+    p = p->next;
 }
 return count;
 ```
@@ -282,9 +282,9 @@ struct node *p = list, *q; //q 作为游标。
 q = p;
 while(p != NULL)
 {
-	p = p->next; // 前移。
-	free(q);
-	q = q->next;   
+    p = p->next; // 前移。
+    free(q);
+    q = q->next;   
 }
 ```
 
