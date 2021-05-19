@@ -46,7 +46,7 @@ int d = (*p.next).data;
 struct node *create(int count)
 ```
 
-创建一个链表并初始化，首先要知道所需要的长度，那么头节点的指针是必须知道的。定义一个头节点同时分配内存：`struct node *head = malloc(sizeof(struct node *));`。考虑到内存分配失败的情况，此时返回 `NULL` 值。
+创建一个链表并初始化，首先要知道所需要的长度，那么头节点的指针是必须知道的。定义一个头节点同时分配内存：`struct node *head = malloc(sizeof(struct node));`。考虑到内存分配失败的情况，此时返回 `NULL` 值。
 
 ```c
 if(head == NULL)
